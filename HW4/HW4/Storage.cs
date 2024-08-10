@@ -2,7 +2,7 @@
 {
 	public class Storage<T>
 	{
-		private static T? Instance { get; set; }
+		private T? Instance { get; set; }
 
 		public void SetItem(T item)
 		{
